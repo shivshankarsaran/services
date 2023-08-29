@@ -1,0 +1,108 @@
+.sidebar{
+    background-color:rgb(167, 167, 167);
+
+    height:620px;
+    transition:transform 0.2s ease-in;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:azure
+}
+
+.sidebar nav li {
+    list-style:none;
+    font-size: 22px;
+    padding:30px;
+}
+.main{
+    width:100%;
+    padding:30px;
+}
+
+.container{
+    display:flex;
+    height:620px;
+}
+.infoContainer{
+    height:40%;
+    width:85%;
+    margin:90px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devPic{
+    height:400px;
+    width:42.5%;
+    display:flex;
+    justify-content: space-around;
+    height:500px;
+}
+.devPic img{
+    width:320px;
+    height:400px;
+}
+.devInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-direction: column;
+    height: 550px;
+}
+
+.hello{
+    font-size: 40px;
+    font-family:cursive;
+}
+.name{
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-display:inherit;
+    font-stretch: semi-condensed;
+}
+.about{
+    font-size: 30px;
+    font-style: italic;
+}
+.buttons button{
+    padding: 2px 5px;
+    border-radius: 22px;
+    background-color: aliceblue;
+    color: dodgerblue;
+    font-weight: bold;
+    margin:1px;
+    cursor:pointer;
+}
+.buttons button a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.buttons button a:hover{
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+.buttons button:hover{
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+.moreabout{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:15px;
+    left:15px;
+}
+.cross{
+    margin-left: 180px;
+}
+.sidebarGo{
+    transform:translate(-400px,0px);
+    position:absolute;
+}
+
+.hi{
+    background-image:url('Screenshot_2023-08-29-10-33-11-60_680d03679600f7af0b4c700c6b270fe7.jpg');
+}
